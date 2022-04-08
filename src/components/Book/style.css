@@ -1,0 +1,53 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+}
+
+li, span {
+  cursor: pointer;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #eee;
+  font-size: 14px;
+  transition: 0.1s;
+ 
+}
+
+li {
+  display: inline-block;
+  width: 100%;
+}
+
+.isRead>.book-title,.isRead>.book-description  {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  text-decoration: line-through;
+
+}
+
+.isRead, .isRead>span, .isRead>.row>* {
+  background: #b2b2b2;
+  color: rgb(0, 0, 0);
+
+
+}
+.book-count{
+  margin: 10px;
+}
+.book-description{
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: transparent;
+
+}
+.pointer{
+  margin-left: 10px;
+}
+.row {
+  float: right;
+  padding: 0;
+}
+

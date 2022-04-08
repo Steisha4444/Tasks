@@ -1,0 +1,37 @@
+.statistic-board {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  display: inline;
+  width: 100%;
+/* justify-content: left; */
+}
+/* .statistic-data{
+display: inline-block;
+} */
+.statistic-data>span {
+  background-color: transparent;
+  padding: 5px;
+
+}
+
+
+.remove-button {
+  padding: 10px;
+  width: 15%;
+  background: #742727;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  margin-top: 10px;
+  border: none;
+
+}
+
+.remove-button:hover {
+  background-color: #9e0505;
+  color: #000000;
+}

@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "isRead": false,
+        "description":"Great magic world",
+        "title": "Heaven official blessing"
+    },
+
+    {
+        "id": 2,
+        "isRead": true,
+        "description":"Motivation",
+        "title": "Morning Magic"
+    },
+
+    {
+        "id": 3,
+        "isRead": false,
+        "description":"philosophy",
+        "title": "Art of War"
+    },
+    {
+        "id": 4,
+        "isRead": true,
+        "description":"Financial literacy guide",
+        "title": "The Richest Man in Babylon "
+    },
+    {
+        "id": 5,
+        "isRead": false,
+        "description":"Great code guide",
+        "title": "React"
+    },
+    {
+        "id": 6,
+        "isRead": true,
+        "description":"Greatest detective story",
+        "title": "Sherlock Holmes"
+    }
+]
