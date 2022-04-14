@@ -1,0 +1,76 @@
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  height: 80px;
+  background: linear-gradient(to right, #3e5151, #decba4);
+}
+
+a{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+.active{
+  color: rgb(161, 14, 14);
+  transition: 0.2s;
+}
+
+.container{
+  margin: 50px;
+}
+.btn-back{
+  background: linear-gradient(to right, #3e5151, #decba4);
+  border: none;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+  border: 1px solid ;
+}
+.btn-back:hover{
+  background: #decba4;
+  border: 1px solid ;
+
+}
+
+.list{
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.login {
+  width: fit-content;
+  background-color: #3e5151;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #decba4;
+}
+
+.login-form > input {
+  display: block;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #decba4;
+  color: #decba4;
+  margin-bottom: 1rem;
+}
+
+.login-form > input[type='submit'] {
+  border: 2px solid #decba4;
+  margin: 10px auto;
+  padding: 5px 10px;
+  
+}
+
+
+.login h3 {
+  color: white;
+  margin: 0;
+  margin-bottom: 10px;
+}
