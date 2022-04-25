@@ -1,0 +1,10 @@
+.header__top{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+.container{
+    display: flex;
+    margin-left: auto;
+    
+}

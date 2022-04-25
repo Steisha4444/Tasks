@@ -1,0 +1,30 @@
+.portfolio__header-title {
+    font-family: 'PT Serif';
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-style: normal;
+}
+
+.portfolio__header-quote {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    margin: 20px 50px 20px 50px ;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.portfolio{
+    width: 80vw;
+    margin-left: 15vw;
+    
+}
+.portfolio__header{
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right:100px;;
+
+}
+
