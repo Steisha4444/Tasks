@@ -1,0 +1,7 @@
+.arrow {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    z-index: 1;
+    cursor: pointer;
+  }

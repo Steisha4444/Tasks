@@ -1,0 +1,82 @@
+.circle1, 
+.circle2, 
+.circle3,
+.circle5 {
+  background-color: var(--pale-blue-color);
+  position: absolute;
+  border-radius: 50%;
+
+}
+
+.circle1 {
+  top: 600px;
+  left: 16px;
+  width: 140px;
+  height: 140px;
+}
+
+.circle2 {
+  top: 950px;
+  left: -35px;
+  height: 100px;
+  width: 100px;
+}
+
+.circle3 {
+  top: 1400px;
+  left: -180px;
+  height: 340px;
+  width: 340px;
+}
+
+.circle4 {
+  background-color: var(--pale-blue-color);
+  position: absolute;
+  top: 660px;
+  right: 0;
+  width: 133px;
+  height: 266px;
+  border-top-left-radius: 130px;
+  border-bottom-left-radius: 130px;
+  border-right: 0;
+}
+
+.circle5 {
+  top: 1410px;
+  right: 32px;
+  height: 97px;
+  width: 97px;
+}
+
+.plane1,
+.plane2,
+.plane3,
+.plane4,
+.plane5 {
+  position: relative;
+}
+
+.plane1 {
+  top: 68px;
+  left: 61px;
+}
+
+.plane2 {
+  top: 32px;
+  left: 34px;
+}
+
+.plane3 {
+  top: 160px;
+  left: 230px;
+}
+
+.plane4 {
+  top: 88px;
+  left: 61px;
+}
+
+.plane5 {
+  top: 25px;
+  left: 35px;
+}
