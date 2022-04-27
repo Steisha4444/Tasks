@@ -1,10 +1,10 @@
 import React from "react";
 
-import styles from "./ArrowNav.module.css";
+import styles from "./Arrow.module.css";
 
 import arrow from "../../assets/svg/arrow.svg";
 
-export const ArrowNav = () => {
+export const Arrow = () => {
   return (
     <div className={styles.arrow}>
       <a href="#">
