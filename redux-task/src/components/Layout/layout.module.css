@@ -1,0 +1,36 @@
+.layout {
+    padding: 40px;
+    font-family: 'Montserrat';
+}
+
+.layoutDark {
+    color: white;
+    background-color: black;
+    transition: all .3s;
+}
+
+.toggleTheme {
+    justify-self: start;
+    padding: 7px 0;
+    min-width: 140px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    margin: 15px auto 10px 10px;
+}
+
+.layoutDark .toggleTheme {
+    background:url(https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGluayUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: left ;
+    color: black;
+    transition: all 0.3s;
+}
+
+.layoutLight .toggleTheme {
+    background:url(https://wallpaperaccess.com/full/2004751.jpg);
+    background-repeat: no-repeat;
+    background-position: right ;
+    color: white;
+    transition: all 0.3s;
+}

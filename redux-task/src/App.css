@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+h1 {
+  text-align: center;
+}
+
+:root {
+  --white-color: #FFFFFF;
+  --light-gray-color: #C4C4C4;
+  --gray-color: #818181;
+  --dark-gray-color: #333333;
+  --pale-blue-color: #EBF6FF;
+  --light-blue-color: #008DFE;
+  --blue-color: #2B66FA;
+  --dim-blue-color: #1D2647;
+  --dark-blue-color: #0A0043;
+  --black-color: #000000;
+  --red-color: #FF0000;
+}
