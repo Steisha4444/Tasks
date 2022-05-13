@@ -1,0 +1,128 @@
+.songContainer {
+    box-shadow: 0px 5px 10px rgba(63, 60, 60, 0.342);
+    margin: 20px;
+    padding: 10px 20px;
+  }
+  
+  .songContainerDark {
+    box-shadow: 0px 5px 10px rgba(42, 50, 122, 0.342);
+    background-color: rgb(39, 40, 41);
+    color: lavender;
+    transition: all .3s;
+  }
+  
+  .song__info h5 {
+    margin: 10px;
+  }
+  
+  .songContainerDark .edit__input {
+    border: 1px solid #696262;
+    box-shadow: 0px 5px 10px rgba(206, 202, 202, 0.2);
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+  }
+  
+  .edit__input {
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .songContainerDark .edit__input:focus, .edit__textarea:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+    transition: all .3s;
+  }
+  
+  .edit__textarea {
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    resize: none;
+    width: 100%;
+  
+  }
+  
+  .songContainerDark .edit__textarea {
+    border: 1px solid #696262;
+    box-shadow: 0px 5px 10px rgba(206, 202, 202, 0.2);
+    background-color: rgb(167, 167, 167);
+    color: rgb(0, 0, 0);
+    transition: all .3s;
+  }
+  
+  .songContainerLight .edit__textareaLight {
+    border: 1px solid #F8F8F8;
+    box-shadow: 0px 5px 10px rgba(206, 202, 202, 0.2);
+    transition: all .3s;
+  }
+  
+  .songContainerDark .edit__input::placeholder, .songContainerDark .edit__textarea::placeholder {
+    color: var(--black-color);
+    transition: all .3s;
+  }
+  
+  .songContainerLight .edit__input::placeholder, .songContainerLight .edit__textarea::placeholder {
+    color: var(--light-gray-color);
+    transition: all .3s;
+  }
+  
+  .songContainer button {
+    border: none;
+    border-radius: 30px;
+    margin: 10px 5px;
+    padding: 7px 0;
+    min-width: 100px;
+    cursor: pointer;
+  }
+  
+  .songContainer button:hover {
+    opacity: 0.8;
+  }
+  
+  .songContainerDark .delete__btn, .songContainerDark .cancel__btn {
+    color: var(--white-color);
+    background: linear-gradient(90deg, #6e1600 0%, #992e2b 50%, #f13636 100%);
+    transition: all .3s;
+  }
+  
+  .songContainerLight .delete__btn, .songContainerLight .cancel__btn {
+    color: var(--black-color);
+    background: linear-gradient(90deg, #fa4932 0%, #f76060 50%, #f89191 100%);
+    transition: all .3s;
+  }
+  
+  .songContainerDark .edit__btn {
+    color: var(--white-color);
+    background: linear-gradient(90deg, #00265f 0%, #0b33b8 50%, #327ae6 100%);
+    transition: all .3s;
+  }
+  
+  .songContainerLight .edit__btn {
+    color: var(--black-color);
+    background: linear-gradient(90deg, #2c79ec 0%, #728ce0 50%, #a8c4ee 100%);
+    transition: all .3s;
+  }
+  
+  .songContainerDark .save__btn {
+    color: var(--white-color);
+    background: linear-gradient(90deg, #006342 0%, #078b54 50%, #10d161 100%);
+    transition: all .3s;
+  }
+  
+  .songContainerLight .save__btn {
+  
+    color: var(--black-color);
+    background: linear-gradient(90deg, #04b378 0%, #1bc980 50%, #8ef8ba 100%);
+    transition: all .3s;
+  }
+  
+  .song__edit {
+    width: 500px;
+  }

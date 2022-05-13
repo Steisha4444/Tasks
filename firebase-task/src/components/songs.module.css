@@ -1,0 +1,12 @@
+
+ .sort__btn {
+  border: none;
+  border-radius: 30px;
+  margin: 10px 5px;
+  padding: 7px 0;
+  min-width: 150px;
+  cursor: pointer;
+  color: var(--black-color);
+  background: linear-gradient(90deg, #00265f 0%, #0b33b8 50%, #327ae6 100%);
+  transition: all .3s;
+}
